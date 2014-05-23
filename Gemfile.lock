@@ -1,0 +1,14 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (0.6.4)
+    libvirt (0.2.0)
+      ffi (~> 0.6.3)
+      nokogiri (~> 1.4.3)
+    nokogiri (1.4.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  libvirt
