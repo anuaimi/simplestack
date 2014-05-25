@@ -1,5 +1,14 @@
 details how to create an ubuntu 14.04 guest using libvirt
 
+##INSTALL##
+- in the install directory there is a bash script to install the dependancies
+- you will need to setup the linux bridge that KVM uses.  most people
+  will want to move the IP from eth0 to the bridge but other configurations
+  may be required (you have a routed ip block)
+
+##RUNNING##
+- simplestack is a rails app
+- 
 
 ##TODO##
 - use linux bridge rather than openvswitch

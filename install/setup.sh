@@ -37,6 +37,9 @@ sudo mv trusty-server-cloudimg-amd64-disk1.img /var/lib/libvirt/images/trusty-se
 sudo qemu-img convert -O qcow2 /var/lib/libvirt/images/trusty-server-cloudimg-amd64-disk1.img.dist /var/lib/libvirt/images/trusty-server-cloudimg-amd64-disk1.img
 #sudo qemu-img resize /var/lib/libvirt/images/trusty-server-cloudimg-amd64-disk1.img +8G 
 
+# install packages needed by rails app
+sudo apt-get install -y sqlite
+
 # 
 sudo gem install bundler
 bundle install
