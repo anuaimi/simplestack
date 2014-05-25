@@ -1,4 +1,6 @@
 source "https://rubygems.org"
 
-gem 'libvirt'
+gem 'activesupport'
+
+gem 'ruby-libvirt'
 

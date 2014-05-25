@@ -20,6 +20,7 @@ sudo apt-get install -y libvirt-dev
 #sudo apt-get install ubuntu-vm-builder
 sudo adduser `id -un` libvirtd
 
+sudo apt-get install -y ruby1.9.1-dev
 sudo apt-get install -y ruby-ffi
 sudo apt-get install -y ruby-libvirt
 sudo apt-get install -y cloud-utils
