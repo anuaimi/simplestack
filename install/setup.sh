@@ -1,5 +1,9 @@
 # sets needed to setup server
 
+# first setup bridge
+# EDIT /etc/network/interfaces
+
+
 # insert rvm
 #sudo apt-get install curl
 #\curl -sSL https://get.rvm.io | bash

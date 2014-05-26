@@ -1,0 +1,5 @@
+{
+	"api_key"  : "fdR4N-3etTQ1",
+	"ip_block" : [ "10.0.1.200/28" ],
+	"database" : "db/simplestack.db"
+}
