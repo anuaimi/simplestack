@@ -14,6 +14,6 @@ gem 'activesupport'
 gem 'ruby-libvirt'
 
 group :development do
-  gem 'debugger'
+  gem 'byebug'
 end
 
