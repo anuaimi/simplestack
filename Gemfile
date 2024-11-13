@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
-gem 'sinatra'
-gem 'thin'
+gem 'sinatra', '~> 4.0'
+gem 'puma'
 
 gem 'sqlite3'
 
