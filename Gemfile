@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'sinatra', '~> 4.0'
+gem 'sinatra', '~> 4'
 gem 'puma'
 
 gem 'sqlite3'
