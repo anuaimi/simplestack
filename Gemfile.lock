@@ -93,7 +93,7 @@ DEPENDENCIES
   redis
   ruby-libvirt
   sidekiq
-  sinatra (~> 4.0)
+  sinatra (~> 4)
   sqlite3
 
 BUNDLED WITH
